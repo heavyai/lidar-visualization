@@ -1,0 +1,222 @@
+body {
+    margin: 0; 
+    padding: 0;
+}
+
+input[type="range"] {
+    display: inline;
+    width: 75%;
+
+}
+
+#assetValue{
+    padding-left: 10px;
+    width:105px;
+    height:20px;
+    opacity:0.5;
+}
+
+span{
+    font-size: 10px;
+}
+
+#container {
+    height: 100vh;
+    position:absolute;
+    width:100vw;
+}
+      
+#sidebarCollapse {
+    opacity:0.9;
+}
+      
+.btn-info {
+    background-color: #2391DC;
+    border-color: #2391DC
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    padding-top:150px;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #242730;
+    color: #2391DC;
+    padding:5px;
+    transition: all 0.3s;
+    display: block;
+    opacity: 0.99;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#header{
+    padding-top:20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#lineStyle {
+    border-left: 2px solid #2391DC;
+    color: #2391DC;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-left: -12px;
+    padding-left: 10px;
+    padding-right: 15px;
+    width:50px;
+}
+
+#filter{
+    padding-top: 5px;
+}
+
+.element{
+    color: #2391DC;
+    font-weight: 500;
+    padding-right: 10px;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    height: 5px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #2391DC;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #2391DC;
+    cursor: pointer;
+}
+
+.sliderValue {
+    width:11%;
+    display: inline;
+    height:17px;
+    opacity:0.5;
+}
+
+.sliderSpacing{
+    padding-right: 10px;
+    display: inline;
+    height:17px;
+
+}
+
+.checkbox-inline .toggle {
+    margin-left: 85px;
+}
+
+.checkbox-inline1 .toggle{
+    margin-left: 70px;
+}
+
+.checkbox-inline1 {
+    padding-left: 0px;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.checkbox-inline {
+    padding-left: 0px;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.checkbox-inline + .checkbox-inline {
+    margin-left: 0px;
+}
+
+.toggle .btn .btn-xs .btn-primary{
+    float:right;
+}
+
+.form-check-inline{
+    display: inline;
+    width:100px;
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+.form-check-inline-SFR{
+    display: inline;
+    width:140px;
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+.alignLeft{
+    float: left;
+}
+.alignRight{
+    float:right;
+}
+
+.btn[disabled]{
+    opacity:0.25;
+}
+
+#buttonContainer{
+    padding:20px;
+    text-align: center;
+}
+
+#tooltip:empty {
+  display: none;
+}
+#tooltip {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  position: absolute;
+  padding: 4px;
+  margin: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  max-width: 300px;
+  font-size: 10px;
+  z-index: 9;
+  pointer-events: none;
+}
+#modal_loading{
+    padding-top: 300px;
+}
+#myModalLabel {
+    text-align: center;
+}
+#myModalLabel1{
+    text-align: center;
+}
